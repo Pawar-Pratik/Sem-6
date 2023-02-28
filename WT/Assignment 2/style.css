@@ -1,0 +1,55 @@
+/* background Image */
+body {
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+}
+
+/* Navigationbar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+li {
+    margin-left: 50px;
+    margin-right: 30px;
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+    color: coral;
+    transition: ease-in-out;
+}
+
+/* Content */
+.content {
+    color: black;
+    width: 40%;
+    border-radius: 20px;
+    margin-top: 80px;
+    margin-left: 50px;
+    background: rgba(247, 247, 247, 0.8);
+    backdrop-filter: blur(8px);
+}
+
+.content p {
+    padding: 70px;
+    margin: auto;
+    font-size: 30px;
+}
